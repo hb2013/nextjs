@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "prod": "next build && next start -p 9901",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start -p 9901"
   },
   "dependencies": {
     "next": "latest",
